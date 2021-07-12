@@ -1,3 +1,13 @@
+
+
+=======
+# Flexguard
+FlexGuard is a project aiming to build a privacy and security first data experiences for data scientists/ml engineers to leverage data ethically and legally while helping enterprises enforce internal policies, compliance.
+
+## Use Cases
+
+Primary use cases are for ML engineers to bring in data from sources like S3, Kafka and even external sources like SAP, Marketo, Salesforce and build features without worry about privacy compliance.
+
 ## Crypto Package 
 
 CryptoPackage is a framework to describe, analyze,transform and release datasets for ML applications.  The framework is designed to empower developers with data curation and governance.
@@ -20,7 +30,6 @@ CryptoPackage is a framework to describe, analyze,transform and release datasets
 - Custom checks and formats
 - Fully pluggable architecture
 - The included API server
-- More than 1000+ tests
 
 ## Example
 
