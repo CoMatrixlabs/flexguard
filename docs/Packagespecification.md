@@ -28,9 +28,14 @@ A crypto package contains:
 ## Crypto Package Specs Suite
 When you look more closely you’ll see that Crypto Package is actually a suite of specifications. This suite is made of small specs, many of them usuable on their own, that you need to combine together.
 
-#![CryptoPackage Spec](./images/CryptoPackage_Spec.png "CryptoPackage Specification")
+![CryptoPackage Spec](./images/CryptoPackage_Spec.png "CryptoPackage Specification")
 
-### Data Resource:
+The graphical representation of the datamodel is below:
+
+![CryptoPackage Graph Spec](./images/Package-Spec.png "CryptoPackage Graph Specification")
+
+### Data Source:
+
 This is the source from which the schema is to be extracted.
 
 With data accessible via the local filesystem.
@@ -70,6 +75,7 @@ source:
   encoding: "utf-8"
 
 ```
+
 
 
 
