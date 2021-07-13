@@ -1,9 +1,8 @@
 import sys
 import typer
-from ..exception import FrictionlessException
 from ..analyze import analyze
 from .main import program
-from . import common
+#from . import common
 
 @program.command(name="analyze")
 def program_analyze(
@@ -37,7 +36,7 @@ def program_analyze(
             groups = [status.errors] + list(map(lambda task: task.errors, status.tasks))
             for group in groups:
                 for error in group:
-                    raise FrictionlessException(error)
+                    raise Exception(error)
     except Exception as exception:
         typer.secho(str(exception), err=True, fg=typer.colors.RED, bold=True)
         raise typer.Exit(1)
